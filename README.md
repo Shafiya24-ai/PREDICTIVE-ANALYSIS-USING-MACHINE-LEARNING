@@ -34,25 +34,25 @@ A Random Forest Classifier with 100 trees (n_estimators=100) and a fixed random 
 
 Once trained, the model was evaluated on the test set. The following metrics were used to assess its performance:
 
--**Accuracy Score:** The model achieved an accuracy of approximately 96%, reflecting strong predictive capability.
+- **Accuracy Score:** The model achieved an accuracy of approximately 96%, reflecting strong predictive capability.
 
--**Classification Report:** Precision, recall, and F1-score were computed for both classes (malignant and benign). The F1-scores were high for both categories, confirming a balanced performance.
+- **Classification Report:** Precision, recall, and F1-score were computed for both classes (malignant and benign). The F1-scores were high for both categories, confirming a balanced performance.
 
--**Confusion Matrix:** A heatmap of the confusion matrix was plotted for better visual understanding of false positives and false negatives.
+- **Confusion Matrix:** A heatmap of the confusion matrix was plotted for better visual understanding of false positives and false negatives.
 
 The classification report and confusion matrix indicate the model’s robustness in handling both types of tumors with minimal misclassifications.
 
 ### Tools and Libraries Used
 
--**Programming Language:** Python
+- **Programming Language:** Python
 
--**Data Analysis:** Pandas, NumPy
+- **Data Analysis:** Pandas, NumPy
 
--**Visualization:** Matplotlib, Seaborn
+- **Visualization:** Matplotlib, Seaborn
 
--**Machine Learning:** Scikit-learn (RandomForestClassifier, preprocessing, model evaluation)
+- **Machine Learning:** Scikit-learn (RandomForestClassifier, preprocessing, model evaluation)
 
--**Development Environment:** Jupyter Notebook 
+- **Development Environment:** Jupyter Notebook 
 
 # Dataset Description
 
